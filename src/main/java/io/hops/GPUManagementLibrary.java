@@ -25,6 +25,6 @@ public interface GPUManagementLibrary {
   
   public String queryMandatoryDevices();
   
-  public String queryAvailableDevices();
+  public String queryAvailableDevices(int configuredGPUs);
 
 }

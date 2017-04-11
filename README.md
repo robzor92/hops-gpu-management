@@ -1,7 +1,8 @@
-Hops Metadata API
+Hops GPU Management API
 ===
 
-This project contains the interfaces for Hops metadata. 
+This project contains the interfaces for querying GPU Management libraries
+(e.g. libnvidia-ml.so for NVIDIA GPUs)
 
 How to build
 ===
@@ -10,13 +11,6 @@ How to build
 mvn clean install
 ```
 
-deploys the jar file as an artifact to the kompics maven repository.
-
-```
-./deploy.sh
-```
-
-
 # License
 
-Hops-Metadata-dal is released under an [Apache 2.0 license](LICENSE.txt).
+hops-gpu-management is released under an [Apache 2.0 license](LICENSE.txt).
